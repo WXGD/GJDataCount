@@ -351,25 +351,44 @@
 }
 // 创建折线
 - (void)paintingBrokenLineSpot:(NSArray *)brokenLineSpotAry lineColor:(UIColor *)lineColor {
+    // 画折线
+    [self drawBrokenLine:brokenLineSpotAry lineColor:lineColor];
+    // 画标记点
+    [self drawMarkeroint:brokenLineSpotAry lineColor:lineColor];
+}
+// 画折线
+- (void)drawBrokenLine:(NSArray *)brokenLineSpotAry lineColor:(UIColor *)lineColor {
+    // 折线属性
+    CAShapeLayer * dashLayer = [CAShapeLayer layer];
+    dashLayer.strokeColor = lineColor.CGColor;
+    dashLayer.fillColor = CLEARCOLOR.CGColor;
+    dashLayer.lineWidth = 0.5;
+    // 绘制折线
+    UIBezierPath * path = [[UIBezierPath alloc]init];
     // 折线图起点 brokenOrigin
     CGPoint brokenOrigin = CGPointMake(self.xOrigin, [[brokenLineSpotAry firstObject] integerValue]);
+    // 折线起点
+    [path moveToPoint:brokenOrigin];
+    [self.layer addSublayer:dashLayer];
     // 便利折线图数据
     for (NSInteger i = 1;i < brokenLineSpotAry.count; i++ ) {
-        // 折线属性
-        CAShapeLayer * dashLayer = [CAShapeLayer layer];
-        dashLayer.strokeColor = lineColor.CGColor;
-        dashLayer.fillColor = CLEARCOLOR.CGColor;
-        dashLayer.lineWidth = 0.5;
-        // 绘制折线
-        UIBezierPath * path = [[UIBezierPath alloc]init];
-        // 折线起点
-        [path moveToPoint:brokenOrigin];
         // 折线终点
         brokenOrigin = CGPointMake(self.xOrigin + self.xAxisSpac * i, [[brokenLineSpotAry objectAtIndex:i] integerValue]);
         [path addLineToPoint:brokenOrigin];
         dashLayer.path = path.CGPath;
-        [self.layer addSublayer:dashLayer];
     }
+    // 折线显示动画
+    CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
+    pathAnimation.duration = 3;
+    pathAnimation.repeatCount = 1;
+    pathAnimation.removedOnCompletion = YES;
+    pathAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
+    pathAnimation.toValue = [NSNumber numberWithFloat:1.0f];
+    [dashLayer addAnimation:pathAnimation forKey:@"strokeEnd"];
+}
+
+// 画标记点
+- (void)drawMarkeroint :(NSArray *)brokenLineSpotAry lineColor:(UIColor *)lineColor {
     // 标记点起点
     CGPoint markerOrigin = CGPointMake(self.xOrigin, [[brokenLineSpotAry firstObject] integerValue]);
     // 便利折标记点数据
@@ -400,6 +419,7 @@
         }
     }
 }
+
 
 
 #pragma mark - 布局方法
