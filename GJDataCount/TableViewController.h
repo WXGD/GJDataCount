@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  GJDataCount
 //
 //  Created by apple on 2017/11/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-

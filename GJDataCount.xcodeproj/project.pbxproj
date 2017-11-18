@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E571FBFCB170065F8A1 /* AppDelegate.m */; };
-		18B06E5B1FBFCB170065F8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E5A1FBFCB170065F8A1 /* ViewController.m */; };
 		18B06E5E1FBFCB170065F8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5C1FBFCB170065F8A1 /* Main.storyboard */; };
 		18B06E601FBFCB170065F8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5F1FBFCB170065F8A1 /* Assets.xcassets */; };
 		18B06E631FBFCB170065F8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E611FBFCB170065F8A1 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,10 @@
 		18B06E7B1FBFCB170065F8A1 /* GJDataCountUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E7A1FBFCB170065F8A1 /* GJDataCountUITests.m */; };
 		18B06E8D1FBFCB960065F8A1 /* BrokenLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E8C1FBFCB960065F8A1 /* BrokenLineViewController.m */; };
 		18B06E901FBFCBA60065F8A1 /* BrokenLineBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E8F1FBFCBA60065F8A1 /* BrokenLineBackView.m */; };
+		18B06E931FBFCF540065F8A1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E921FBFCF540065F8A1 /* TableViewController.m */; };
+		18B06E961FBFD4830065F8A1 /* BrokenLineScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E951FBFD4830065F8A1 /* BrokenLineScrollView.m */; };
+		18B06E991FBFD7550065F8A1 /* BrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E981FBFD7550065F8A1 /* BrokenLineView.m */; };
+		18B06E9D1FBFDFE10065F8A1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E9C1FBFDFE10065F8A1 /* UIView+Extension.m */; };
 		56AF02767D70106A41994408 /* Pods_GJDataCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281B94D13E724DCBA265DC4 /* Pods_GJDataCount.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +44,6 @@
 		18B06E531FBFCB170065F8A1 /* GJDataCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJDataCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B06E561FBFCB170065F8A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B06E571FBFCB170065F8A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18B06E591FBFCB170065F8A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18B06E5A1FBFCB170065F8A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B06E5D1FBFCB170065F8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B06E5F1FBFCB170065F8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B06E621FBFCB170065F8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +59,14 @@
 		18B06E8C1FBFCB960065F8A1 /* BrokenLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineViewController.m; sourceTree = "<group>"; };
 		18B06E8E1FBFCBA60065F8A1 /* BrokenLineBackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenLineBackView.h; sourceTree = "<group>"; };
 		18B06E8F1FBFCBA60065F8A1 /* BrokenLineBackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineBackView.m; sourceTree = "<group>"; };
+		18B06E911FBFCF540065F8A1 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		18B06E921FBFCF540065F8A1 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		18B06E941FBFD4830065F8A1 /* BrokenLineScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenLineScrollView.h; sourceTree = "<group>"; };
+		18B06E951FBFD4830065F8A1 /* BrokenLineScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineScrollView.m; sourceTree = "<group>"; };
+		18B06E971FBFD7550065F8A1 /* BrokenLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenLineView.h; sourceTree = "<group>"; };
+		18B06E981FBFD7550065F8A1 /* BrokenLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineView.m; sourceTree = "<group>"; };
+		18B06E9B1FBFDFE10065F8A1 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18B06E9C1FBFDFE10065F8A1 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		1E684A6B9134C01E6EC552A0 /* Pods-GJDataCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJDataCount.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJDataCount/Pods-GJDataCount.release.xcconfig"; sourceTree = "<group>"; };
 		316782A9B75587A7B6631554 /* Pods-GJDataCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJDataCount.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJDataCount/Pods-GJDataCount.debug.xcconfig"; sourceTree = "<group>"; };
 		4281B94D13E724DCBA265DC4 /* Pods_GJDataCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJDataCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +125,9 @@
 			children = (
 				18B06E561FBFCB170065F8A1 /* AppDelegate.h */,
 				18B06E571FBFCB170065F8A1 /* AppDelegate.m */,
-				18B06E591FBFCB170065F8A1 /* ViewController.h */,
-				18B06E5A1FBFCB170065F8A1 /* ViewController.m */,
+				18B06E911FBFCF540065F8A1 /* TableViewController.h */,
+				18B06E921FBFCF540065F8A1 /* TableViewController.m */,
+				18B06E9A1FBFDFE10065F8A1 /* Category */,
 				18B06E881FBFCB6D0065F8A1 /* BrokenLine(折线图) */,
 				18B06E5C1FBFCB170065F8A1 /* Main.storyboard */,
 				18B06E5F1FBFCB170065F8A1 /* Assets.xcassets */,
@@ -169,8 +179,21 @@
 			children = (
 				18B06E8E1FBFCBA60065F8A1 /* BrokenLineBackView.h */,
 				18B06E8F1FBFCBA60065F8A1 /* BrokenLineBackView.m */,
+				18B06E941FBFD4830065F8A1 /* BrokenLineScrollView.h */,
+				18B06E951FBFD4830065F8A1 /* BrokenLineScrollView.m */,
+				18B06E971FBFD7550065F8A1 /* BrokenLineView.h */,
+				18B06E981FBFD7550065F8A1 /* BrokenLineView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		18B06E9A1FBFDFE10065F8A1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18B06E9B1FBFDFE10065F8A1 /* UIView+Extension.h */,
+				18B06E9C1FBFDFE10065F8A1 /* UIView+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		CAAE0221317A22B019715F2E /* Frameworks */ = {
@@ -382,10 +405,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B06E5B1FBFCB170065F8A1 /* ViewController.m in Sources */,
 				18B06E8D1FBFCB960065F8A1 /* BrokenLineViewController.m in Sources */,
+				18B06E991FBFD7550065F8A1 /* BrokenLineView.m in Sources */,
 				18B06E661FBFCB170065F8A1 /* main.m in Sources */,
+				18B06E961FBFD4830065F8A1 /* BrokenLineScrollView.m in Sources */,
 				18B06E901FBFCBA60065F8A1 /* BrokenLineBackView.m in Sources */,
+				18B06E931FBFCF540065F8A1 /* TableViewController.m in Sources */,
+				18B06E9D1FBFDFE10065F8A1 /* UIView+Extension.m in Sources */,
 				18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ParkingSpace.GJDataCount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -570,6 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ParkingSpace.GJDataCount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
