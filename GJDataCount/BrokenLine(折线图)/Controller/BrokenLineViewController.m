@@ -53,14 +53,14 @@
 #pragma mark - 布局视图
 - (void)lineLayoutView {
 //    self.brokenLineBackView = [BrokenLineBackView foundBrokenLineChartXNodeAry:@[@"17.7", @"17.8", @"17.9", @"17.10", @"17.11", @"17.12(预)"] yNodeAry:@[@"元/m", @"15000", @"14000", @"13000", @"12000", @"11000", @"10000"]];
-    self.brokenLineBackView = [BrokenLineBackView foundBrokenLineChartXNodeAry:@[@"17.7", @"17.8", @"17.9", @"17.10", @"17.11", @"17.12(预)"] yNodeAry:@[@"元/m", @"15000", @"14000", @"13000", @"12000", @"11000", @"10000"] xOrigin:52 yOrigin:20 xAxisSpac:60 yAxisSpac:30 xAxisRightSpac:10 yAxisTopSpac:5];
+    self.brokenLineBackView = [BrokenLineBackView foundBrokenLineChartXNodeAry:@[@"17.7", @"17.8", @"17.9", @"17.10", @"17.11", @"17.12(预)"] yNodeAry:@[@"元/m", @"15000", @"14000", @"13000", @"12000", @"11000", @"10000"] xOrigin:52 yOrigin:20 xAxisSpac:60 yAxisSpac:30 xAxisRightSpac:10 yAxisTopSpac:10];
     [self.view addSubview:self.brokenLineBackView];
     @weakify(self)
     [self.brokenLineBackView mas_makeConstraints:^(MASConstraintMaker *make) {
         @strongify(self)
         make.centerY.equalTo(self.view.mas_centerY);
         make.centerX.equalTo(self.view.mas_centerX);
-        make.size.mas_equalTo(CGSizeMake(300, 7 * 30 + 25));
+        make.size.mas_equalTo(CGSizeMake(300, 7 * 30 + 30));
     }];
     
    

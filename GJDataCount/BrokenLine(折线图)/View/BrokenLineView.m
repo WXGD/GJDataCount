@@ -219,8 +219,8 @@
 #pragma mark - 画出坐标轴
 - (void)drawRect:(CGRect)rect{
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetLineWidth(context, 2);
-    CGContextSetRGBStrokeColor(context, 0.45, 0.55, 0.22, 1);
+    CGContextSetLineWidth(context, 0.5);
+    CGContextSetRGBStrokeColor(context, 0.87, 0.87, 0.87, 1);
     // 判断是否有X,Y轴
     if (self.isXAxis && self.isYAxis) { // 都有
         CGContextMoveToPoint(context, self.xOrigin, self.yAxisTopSpac);
