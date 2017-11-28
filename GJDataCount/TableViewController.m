@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "BrokenLineViewController.h"
+#import "StackViewViewController.h"
 
 @interface TableViewController ()
 
@@ -35,20 +36,43 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"tableCell" forIndexPath:indexPath];
-    cell.textLabel.text = @"折线图";
+    switch (indexPath.row) {
+        case 0: {
+            cell.textLabel.text = @"折线图";
+            break;
+        }
+        case 1: {
+            cell.textLabel.text = @"StackView使用";
+            break;
+        }
+        default:
+            break;
+    }
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    BrokenLineViewController *brokenLineVC = [[BrokenLineViewController alloc] init];
-    [self.navigationController pushViewController:brokenLineVC animated:YES];
+    switch (indexPath.row) {
+        case 0: {
+            BrokenLineViewController *brokenLineVC = [[BrokenLineViewController alloc] init];
+            [self.navigationController pushViewController:brokenLineVC animated:YES];
+            break;
+        }
+        case 1: {
+            StackViewViewController *stackViewVC = [[StackViewViewController alloc] init];
+            [self.navigationController pushViewController:stackViewVC animated:YES];
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 

@@ -16,8 +16,6 @@
 /** 折线图view */
 @property (strong, nonatomic) BrokenLineScrollView *brokenScrollView;
 
-
-
 /**
  * 初始化方法
  *
