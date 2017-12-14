@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1811C8BF1FCD513D00259FC5 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */; };
+		1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C8C11FCD514800259FC5 /* PieChartView.m */; };
+		185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */; };
+		185F40711FDE1C1300BE0D82 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */; };
 		18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E571FBFCB170065F8A1 /* AppDelegate.m */; };
 		18B06E5E1FBFCB170065F8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5C1FBFCB170065F8A1 /* Main.storyboard */; };
 		18B06E601FBFCB170065F8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5F1FBFCB170065F8A1 /* Assets.xcassets */; };
@@ -45,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1811C8BD1FCD513D00259FC5 /* PieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		1811C8C01FCD514800259FC5 /* PieChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		1811C8C11FCD514800259FC5 /* PieChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		185DB1861FD0E5B900C0FAA5 /* PGActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGActivityView.h; sourceTree = "<group>"; };
+		185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGActivityView.m; sourceTree = "<group>"; };
+		185F406F1FDE1C1300BE0D82 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
+		185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
 		18B06E531FBFCB170065F8A1 /* GJDataCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJDataCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B06E561FBFCB170065F8A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B06E571FBFCB170065F8A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +123,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1811C8BA1FCD509700259FC5 /* PieChart(饼图) */ = {
+			isa = PBXGroup;
+			children = (
+				1811C8BB1FCD509700259FC5 /* Controller */,
+				1811C8BC1FCD509700259FC5 /* View */,
+			);
+			path = "PieChart(饼图)";
+			sourceTree = "<group>";
+		};
+		1811C8BB1FCD509700259FC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1811C8BD1FCD513D00259FC5 /* PieChartViewController.h */,
+				1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1811C8BC1FCD509700259FC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1811C8C01FCD514800259FC5 /* PieChartView.h */,
+				1811C8C11FCD514800259FC5 /* PieChartView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185F406C1FDE1B8500BE0D82 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				185F406D1FDE1B8500BE0D82 /* Controller */,
+				185F406E1FDE1B8500BE0D82 /* View */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		185F406D1FDE1B8500BE0D82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185F406F1FDE1C1300BE0D82 /* PhotoBrowserViewController.h */,
+				185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185F406E1FDE1B8500BE0D82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18B06E4A1FBFCB170065F8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -136,13 +200,15 @@
 		18B06E551FBFCB170065F8A1 /* GJDataCount */ = {
 			isa = PBXGroup;
 			children = (
+				18B06E9A1FBFDFE10065F8A1 /* Category */,
 				18B06E561FBFCB170065F8A1 /* AppDelegate.h */,
 				18B06E571FBFCB170065F8A1 /* AppDelegate.m */,
 				18B06E911FBFCF540065F8A1 /* TableViewController.h */,
 				18B06E921FBFCF540065F8A1 /* TableViewController.m */,
 				18B06EB01FC033580065F8A1 /* PrefixHeader.pch */,
-				18B06E9A1FBFDFE10065F8A1 /* Category */,
+				185F406C1FDE1B8500BE0D82 /* PhotoBrowser */,
 				18B06E9E1FC018800065F8A1 /* StackView */,
+				1811C8BA1FCD509700259FC5 /* PieChart(饼图) */,
 				18B06E881FBFCB6D0065F8A1 /* BrokenLine(折线图) */,
 				18B06E5C1FBFCB170065F8A1 /* Main.storyboard */,
 				18B06E5F1FBFCB170065F8A1 /* Assets.xcassets */,
@@ -238,6 +304,8 @@
 				18B06EAE1FC032E70065F8A1 /* PGQuickScreenView.m */,
 				18B06EB11FC033D40065F8A1 /* PGQuickTermView.h */,
 				18B06EB21FC033D40065F8A1 /* PGQuickTermView.m */,
+				185DB1861FD0E5B900C0FAA5 /* PGActivityView.h */,
+				185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,13 +467,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GJDataCount/Pods-GJDataCount-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,13 +532,17 @@
 				18B06E8D1FBFCB960065F8A1 /* BrokenLineViewController.m in Sources */,
 				18B06E991FBFD7550065F8A1 /* BrokenLineView.m in Sources */,
 				18B06EA31FC0188F0065F8A1 /* StackViewViewController.m in Sources */,
+				185F40711FDE1C1300BE0D82 /* PhotoBrowserViewController.m in Sources */,
+				185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */,
 				18B06E661FBFCB170065F8A1 /* main.m in Sources */,
 				18B06E961FBFD4830065F8A1 /* BrokenLineScrollView.m in Sources */,
 				18B06E901FBFCBA60065F8A1 /* BrokenLineBackView.m in Sources */,
 				18B06EB61FC035060065F8A1 /* UIButton+Extension.m in Sources */,
+				1811C8BF1FCD513D00259FC5 /* PieChartViewController.m in Sources */,
 				18B06E931FBFCF540065F8A1 /* TableViewController.m in Sources */,
 				18B06E9D1FBFDFE10065F8A1 /* UIView+Extension.m in Sources */,
 				18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */,
+				1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */,
 				18B06EAF1FC032E70065F8A1 /* PGQuickScreenView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

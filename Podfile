@@ -4,5 +4,6 @@ xcodeproj 'GJDataCount.xcodeproj'
 target 'GJDataCount' do
     pod 'Masonry'
     pod 'ReactiveObjC'
+    pod 'MWPhotoBrowser'
     pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 end

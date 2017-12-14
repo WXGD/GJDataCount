@@ -9,6 +9,8 @@
 #import "TableViewController.h"
 #import "BrokenLineViewController.h"
 #import "StackViewViewController.h"
+#import "PieChartViewController.h"
+#import "PhotoBrowserViewController.h"
 
 @interface TableViewController ()
 
@@ -36,7 +38,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 4;
 }
 
 
@@ -48,7 +50,15 @@
             break;
         }
         case 1: {
+            cell.textLabel.text = @"饼状图";
+            break;
+        }
+        case 2: {
             cell.textLabel.text = @"StackView使用";
+            break;
+        }
+        case 3: {
+            cell.textLabel.text = @"图片浏览";
             break;
         }
         default:
@@ -66,11 +76,21 @@
             break;
         }
         case 1: {
+            PieChartViewController *pieChartVC = [[PieChartViewController alloc] init];
+            [self.navigationController pushViewController:pieChartVC animated:YES];
+            break;
+        }
+        case 2: {
             StackViewViewController *stackViewVC = [[StackViewViewController alloc] init];
             [self.navigationController pushViewController:stackViewVC animated:YES];
             break;
         }
-        default:
+        case 3: {
+            PhotoBrowserViewController *photoBrowserVC = [[PhotoBrowserViewController alloc] init];
+            [self.navigationController pushViewController:photoBrowserVC animated:YES];
+            break;
+        }
+            default:
             break;
     }
 }

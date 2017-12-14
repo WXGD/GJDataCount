@@ -66,10 +66,11 @@
    
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.normalTitle = @"点我";
     btn.backgroundColor = RANDOMCOLOR;
     [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    btn.frame = CGRectMake(0, 100, 100, 100);
+    btn.frame = CGRectMake(100, 100, 100, 30);
 }
 
 
