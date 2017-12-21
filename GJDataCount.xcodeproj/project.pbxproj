@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1811C8BF1FCD513D00259FC5 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */; };
 		1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C8C11FCD514800259FC5 /* PieChartView.m */; };
+		181FF8511FE51AD2006A28B2 /* PGTimeSeleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8501FE51AD2006A28B2 /* PGTimeSeleViewController.m */; };
+		181FF8541FE51AE2006A28B2 /* PGTimeSeleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8531FE51AE2006A28B2 /* PGTimeSeleView.m */; };
+		181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */; };
+		181FF85D1FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */; };
+		181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */; };
 		185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */; };
 		185F40711FDE1C1300BE0D82 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */; };
 		18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E571FBFCB170065F8A1 /* AppDelegate.m */; };
@@ -53,6 +58,16 @@
 		1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
 		1811C8C01FCD514800259FC5 /* PieChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
 		1811C8C11FCD514800259FC5 /* PieChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		181FF84F1FE51AD2006A28B2 /* PGTimeSeleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTimeSeleViewController.h; sourceTree = "<group>"; };
+		181FF8501FE51AD2006A28B2 /* PGTimeSeleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGTimeSeleViewController.m; sourceTree = "<group>"; };
+		181FF8521FE51AE2006A28B2 /* PGTimeSeleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTimeSeleView.h; sourceTree = "<group>"; };
+		181FF8531FE51AE2006A28B2 /* PGTimeSeleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGTimeSeleView.m; sourceTree = "<group>"; };
+		181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		181FF8571FE522E7006A28B2 /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		181FF8581FE522E7006A28B2 /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		181FF85A1FE522E7006A28B2 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
 		185DB1861FD0E5B900C0FAA5 /* PGActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGActivityView.h; sourceTree = "<group>"; };
 		185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGActivityView.m; sourceTree = "<group>"; };
 		185F406F1FDE1C1300BE0D82 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
@@ -150,6 +165,46 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		181FF84C1FE51AA5006A28B2 /* TimeSele(时间选择) */ = {
+			isa = PBXGroup;
+			children = (
+				181FF84D1FE51AA5006A28B2 /* Controller */,
+				181FF84E1FE51AA5006A28B2 /* View */,
+			);
+			path = "TimeSele(时间选择)";
+			sourceTree = "<group>";
+		};
+		181FF84D1FE51AA5006A28B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181FF84F1FE51AD2006A28B2 /* PGTimeSeleViewController.h */,
+				181FF8501FE51AD2006A28B2 /* PGTimeSeleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		181FF84E1FE51AA5006A28B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181FF8521FE51AE2006A28B2 /* PGTimeSeleView.h */,
+				181FF8531FE51AE2006A28B2 /* PGTimeSeleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		181FF8551FE522E7006A28B2 /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */,
+				181FF8571FE522E7006A28B2 /* NSArray+ZXPUnicode.h */,
+				181FF8581FE522E7006A28B2 /* NSDictionary+ZXPUnicode.h */,
+				181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */,
+				181FF85A1FE522E7006A28B2 /* NSObject+ZXPUnicode.h */,
+				181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
 		185F406C1FDE1B8500BE0D82 /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +261,8 @@
 				18B06E911FBFCF540065F8A1 /* TableViewController.h */,
 				18B06E921FBFCF540065F8A1 /* TableViewController.m */,
 				18B06EB01FC033580065F8A1 /* PrefixHeader.pch */,
+				181FF8551FE522E7006A28B2 /* ZXPUnicode */,
+				181FF84C1FE51AA5006A28B2 /* TimeSele(时间选择) */,
 				185F406C1FDE1B8500BE0D82 /* PhotoBrowser */,
 				18B06E9E1FC018800065F8A1 /* StackView */,
 				1811C8BA1FCD509700259FC5 /* PieChart(饼图) */,
@@ -531,18 +588,23 @@
 				18B06EB31FC033D40065F8A1 /* PGQuickTermView.m in Sources */,
 				18B06E8D1FBFCB960065F8A1 /* BrokenLineViewController.m in Sources */,
 				18B06E991FBFD7550065F8A1 /* BrokenLineView.m in Sources */,
+				181FF8541FE51AE2006A28B2 /* PGTimeSeleView.m in Sources */,
 				18B06EA31FC0188F0065F8A1 /* StackViewViewController.m in Sources */,
 				185F40711FDE1C1300BE0D82 /* PhotoBrowserViewController.m in Sources */,
 				185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */,
+				181FF85D1FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m in Sources */,
 				18B06E661FBFCB170065F8A1 /* main.m in Sources */,
 				18B06E961FBFD4830065F8A1 /* BrokenLineScrollView.m in Sources */,
 				18B06E901FBFCBA60065F8A1 /* BrokenLineBackView.m in Sources */,
 				18B06EB61FC035060065F8A1 /* UIButton+Extension.m in Sources */,
 				1811C8BF1FCD513D00259FC5 /* PieChartViewController.m in Sources */,
 				18B06E931FBFCF540065F8A1 /* TableViewController.m in Sources */,
+				181FF8511FE51AD2006A28B2 /* PGTimeSeleViewController.m in Sources */,
 				18B06E9D1FBFDFE10065F8A1 /* UIView+Extension.m in Sources */,
+				181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */,
 				18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */,
 				1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */,
+				181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */,
 				18B06EAF1FC032E70065F8A1 /* PGQuickScreenView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

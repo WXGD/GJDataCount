@@ -11,6 +11,7 @@
 #import "StackViewViewController.h"
 #import "PieChartViewController.h"
 #import "PhotoBrowserViewController.h"
+#import "PGTimeSeleViewController.h"
 
 @interface TableViewController ()
 
@@ -38,7 +39,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 4;
+    return 5;
 }
 
 
@@ -59,6 +60,10 @@
         }
         case 3: {
             cell.textLabel.text = @"图片浏览";
+            break;
+        }
+        case 4: {
+            cell.textLabel.text = @"时间选择";
             break;
         }
         default:
@@ -88,6 +93,11 @@
         case 3: {
             PhotoBrowserViewController *photoBrowserVC = [[PhotoBrowserViewController alloc] init];
             [self.navigationController pushViewController:photoBrowserVC animated:YES];
+            break;
+        }
+        case 4: {
+            PGTimeSeleViewController *timeSeleVC = [[PGTimeSeleViewController alloc] init];
+            [self.navigationController pushViewController:timeSeleVC animated:YES];
             break;
         }
             default:
