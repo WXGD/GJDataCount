@@ -14,8 +14,13 @@
 		181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */; };
 		181FF85D1FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */; };
 		181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */; };
+		185AE6CB1FECFF1400CD11C0 /* PlateNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AE6CA1FECFF1400CD11C0 /* PlateNumView.m */; };
+		185AE6CD1FECFF2200CD11C0 /* PlateNumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185AE6CC1FECFF2200CD11C0 /* PlateNumView.xib */; };
 		185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */; };
 		185F40711FDE1C1300BE0D82 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */; };
+		18AF8F1E1FEBAB1300AC3ECE /* PlnKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8F1D1FEBAB1300AC3ECE /* PlnKeyViewController.m */; };
+		18AF8F281FEBBBEB00AC3ECE /* CustomKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8F271FEBBBEB00AC3ECE /* CustomKeyboard.m */; };
+		18AF8F2C1FEBBC0A00AC3ECE /* CustomKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8F2B1FEBBC0A00AC3ECE /* CustomKeyboard.xib */; };
 		18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E571FBFCB170065F8A1 /* AppDelegate.m */; };
 		18B06E5E1FBFCB170065F8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5C1FBFCB170065F8A1 /* Main.storyboard */; };
 		18B06E601FBFCB170065F8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5F1FBFCB170065F8A1 /* Assets.xcassets */; };
@@ -68,10 +73,18 @@
 		181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
 		181FF85A1FE522E7006A28B2 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
 		181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
+		185AE6C91FECFF1400CD11C0 /* PlateNumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlateNumView.h; sourceTree = "<group>"; };
+		185AE6CA1FECFF1400CD11C0 /* PlateNumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateNumView.m; sourceTree = "<group>"; };
+		185AE6CC1FECFF2200CD11C0 /* PlateNumView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlateNumView.xib; sourceTree = "<group>"; };
 		185DB1861FD0E5B900C0FAA5 /* PGActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGActivityView.h; sourceTree = "<group>"; };
 		185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGActivityView.m; sourceTree = "<group>"; };
 		185F406F1FDE1C1300BE0D82 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
 		185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
+		18AF8F1C1FEBAB1300AC3ECE /* PlnKeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlnKeyViewController.h; sourceTree = "<group>"; };
+		18AF8F1D1FEBAB1300AC3ECE /* PlnKeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlnKeyViewController.m; sourceTree = "<group>"; };
+		18AF8F261FEBBBEB00AC3ECE /* CustomKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeyboard.h; sourceTree = "<group>"; };
+		18AF8F271FEBBBEB00AC3ECE /* CustomKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboard.m; sourceTree = "<group>"; };
+		18AF8F2B1FEBBC0A00AC3ECE /* CustomKeyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomKeyboard.xib; sourceTree = "<group>"; };
 		18B06E531FBFCB170065F8A1 /* GJDataCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJDataCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B06E561FBFCB170065F8A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B06E571FBFCB170065F8A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -230,6 +243,37 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		18AF8F131FEBAAE200AC3ECE /* PlnKey(车牌键盘) */ = {
+			isa = PBXGroup;
+			children = (
+				18AF8F141FEBAAE200AC3ECE /* Controller */,
+				18AF8F151FEBAAE200AC3ECE /* View */,
+			);
+			path = "PlnKey(车牌键盘)";
+			sourceTree = "<group>";
+		};
+		18AF8F141FEBAAE200AC3ECE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18AF8F1C1FEBAB1300AC3ECE /* PlnKeyViewController.h */,
+				18AF8F1D1FEBAB1300AC3ECE /* PlnKeyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18AF8F151FEBAAE200AC3ECE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18AF8F261FEBBBEB00AC3ECE /* CustomKeyboard.h */,
+				18AF8F271FEBBBEB00AC3ECE /* CustomKeyboard.m */,
+				18AF8F2B1FEBBC0A00AC3ECE /* CustomKeyboard.xib */,
+				185AE6C91FECFF1400CD11C0 /* PlateNumView.h */,
+				185AE6CA1FECFF1400CD11C0 /* PlateNumView.m */,
+				185AE6CC1FECFF2200CD11C0 /* PlateNumView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18B06E4A1FBFCB170065F8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +305,7 @@
 				18B06E911FBFCF540065F8A1 /* TableViewController.h */,
 				18B06E921FBFCF540065F8A1 /* TableViewController.m */,
 				18B06EB01FC033580065F8A1 /* PrefixHeader.pch */,
+				18AF8F131FEBAAE200AC3ECE /* PlnKey(车牌键盘) */,
 				181FF8551FE522E7006A28B2 /* ZXPUnicode */,
 				181FF84C1FE51AA5006A28B2 /* TimeSele(时间选择) */,
 				185F406C1FDE1B8500BE0D82 /* PhotoBrowser */,
@@ -495,8 +540,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B06E631FBFCB170065F8A1 /* LaunchScreen.storyboard in Resources */,
+				185AE6CD1FECFF2200CD11C0 /* PlateNumView.xib in Resources */,
 				18B06E601FBFCB170065F8A1 /* Assets.xcassets in Resources */,
 				18B06E5E1FBFCB170065F8A1 /* Main.storyboard in Resources */,
+				18AF8F2C1FEBBC0A00AC3ECE /* CustomKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +642,9 @@
 				181FF85D1FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m in Sources */,
 				18B06E661FBFCB170065F8A1 /* main.m in Sources */,
 				18B06E961FBFD4830065F8A1 /* BrokenLineScrollView.m in Sources */,
+				185AE6CB1FECFF1400CD11C0 /* PlateNumView.m in Sources */,
 				18B06E901FBFCBA60065F8A1 /* BrokenLineBackView.m in Sources */,
+				18AF8F281FEBBBEB00AC3ECE /* CustomKeyboard.m in Sources */,
 				18B06EB61FC035060065F8A1 /* UIButton+Extension.m in Sources */,
 				1811C8BF1FCD513D00259FC5 /* PieChartViewController.m in Sources */,
 				18B06E931FBFCF540065F8A1 /* TableViewController.m in Sources */,
@@ -606,6 +655,7 @@
 				1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */,
 				181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */,
 				18B06EAF1FC032E70065F8A1 /* PGQuickScreenView.m in Sources */,
+				18AF8F1E1FEBAB1300AC3ECE /* PlnKeyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

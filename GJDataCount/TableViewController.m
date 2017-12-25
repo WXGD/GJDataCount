@@ -12,6 +12,7 @@
 #import "PieChartViewController.h"
 #import "PhotoBrowserViewController.h"
 #import "PGTimeSeleViewController.h"
+#import "PlnKeyViewController.h"
 
 @interface TableViewController ()
 
@@ -39,7 +40,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return 6;
 }
 
 
@@ -64,6 +65,10 @@
         }
         case 4: {
             cell.textLabel.text = @"时间选择";
+            break;
+        }
+        case 5: {
+            cell.textLabel.text = @"车牌键盘";
             break;
         }
         default:
@@ -98,6 +103,11 @@
         case 4: {
             PGTimeSeleViewController *timeSeleVC = [[PGTimeSeleViewController alloc] init];
             [self.navigationController pushViewController:timeSeleVC animated:YES];
+            break;
+        }
+        case 5: {
+            PlnKeyViewController *plnKeyVC = [[PlnKeyViewController alloc] init];
+            [self.navigationController pushViewController:plnKeyVC animated:YES];
             break;
         }
             default:

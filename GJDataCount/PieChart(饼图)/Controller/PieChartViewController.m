@@ -28,12 +28,15 @@
 
 #pragma mark - 功能选择按钮
 - (void)pieChartBtnAvtion:(UIButton *)button {
-    
+//    self.pieChartView.datas = @[@((arc4random()%90 + 10) / 100.0), @(0.1), @((arc4random()%90 + 10) / 100.0), @(0.1), @((arc4random()%90 + 10) / 100.0), @(0.1)];
+    self.pieChartView.datas = @[@(0.4), @(0.6)];
+    [self.pieChartView stroke];
+
 }
 
 #pragma mark - 界面赋值
 - (void)pieChartAssignment {
-    self.pieChartView.datas = @[@(arc4random()%100), @(arc4random()%100), @(arc4random()%100)];
+
 }
 
 
@@ -42,6 +45,14 @@
     /** 饼状图view */
     self.pieChartView = [[PieChartView alloc] initWithFrame:self.view.frame];
     [self.view addSubview:self.pieChartView];
+    
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.normalTitle = @"点我";
+    btn.backgroundColor = RANDOMCOLOR;
+    [btn addTarget:self action:@selector(pieChartBtnAvtion:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    btn.frame = CGRectMake(100, 100, 100, 30);
 }
 
 

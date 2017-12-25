@@ -11,5 +11,6 @@
 @interface PieChartView : UIView
 
 @property (strong, nonatomic) NSArray <NSNumber *>*datas;
+- (void)stroke;
 
 @end
