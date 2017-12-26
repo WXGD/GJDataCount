@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1811C8BF1FCD513D00259FC5 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */; };
-		1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C8C11FCD514800259FC5 /* PieChartView.m */; };
 		181FF8511FE51AD2006A28B2 /* PGTimeSeleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8501FE51AD2006A28B2 /* PGTimeSeleViewController.m */; };
 		181FF8541FE51AE2006A28B2 /* PGTimeSeleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8531FE51AE2006A28B2 /* PGTimeSeleView.m */; };
 		181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */; };
@@ -38,6 +37,7 @@
 		18B06EAF1FC032E70065F8A1 /* PGQuickScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06EAE1FC032E70065F8A1 /* PGQuickScreenView.m */; };
 		18B06EB31FC033D40065F8A1 /* PGQuickTermView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06EB21FC033D40065F8A1 /* PGQuickTermView.m */; };
 		18B06EB61FC035060065F8A1 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06EB51FC035060065F8A1 /* UIButton+Extension.m */; };
+		18ED1E041FF1FE960008803B /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED1E021FF1FE960008803B /* PieChartView.m */; };
 		56AF02767D70106A41994408 /* Pods_GJDataCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281B94D13E724DCBA265DC4 /* Pods_GJDataCount.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +61,6 @@
 /* Begin PBXFileReference section */
 		1811C8BD1FCD513D00259FC5 /* PieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
 		1811C8BE1FCD513D00259FC5 /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
-		1811C8C01FCD514800259FC5 /* PieChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
-		1811C8C11FCD514800259FC5 /* PieChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
 		181FF84F1FE51AD2006A28B2 /* PGTimeSeleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTimeSeleViewController.h; sourceTree = "<group>"; };
 		181FF8501FE51AD2006A28B2 /* PGTimeSeleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGTimeSeleViewController.m; sourceTree = "<group>"; };
 		181FF8521FE51AE2006A28B2 /* PGTimeSeleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTimeSeleView.h; sourceTree = "<group>"; };
@@ -120,6 +118,8 @@
 		18B06EB21FC033D40065F8A1 /* PGQuickTermView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGQuickTermView.m; sourceTree = "<group>"; };
 		18B06EB41FC035060065F8A1 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		18B06EB51FC035060065F8A1 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		18ED1E021FF1FE960008803B /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		18ED1E031FF1FE960008803B /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
 		1E684A6B9134C01E6EC552A0 /* Pods-GJDataCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJDataCount.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJDataCount/Pods-GJDataCount.release.xcconfig"; sourceTree = "<group>"; };
 		316782A9B75587A7B6631554 /* Pods-GJDataCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJDataCount.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJDataCount/Pods-GJDataCount.debug.xcconfig"; sourceTree = "<group>"; };
 		4281B94D13E724DCBA265DC4 /* Pods_GJDataCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJDataCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,8 +172,8 @@
 		1811C8BC1FCD509700259FC5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1811C8C01FCD514800259FC5 /* PieChartView.h */,
-				1811C8C11FCD514800259FC5 /* PieChartView.m */,
+				18ED1E031FF1FE960008803B /* PieChartView.h */,
+				18ED1E021FF1FE960008803B /* PieChartView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -652,7 +652,7 @@
 				18B06E9D1FBFDFE10065F8A1 /* UIView+Extension.m in Sources */,
 				181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */,
 				18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */,
-				1811C8C21FCD514800259FC5 /* PieChartView.m in Sources */,
+				18ED1E041FF1FE960008803B /* PieChartView.m in Sources */,
 				181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */,
 				18B06EAF1FC032E70065F8A1 /* PGQuickScreenView.m in Sources */,
 				18AF8F1E1FEBAB1300AC3ECE /* PlnKeyViewController.m in Sources */,

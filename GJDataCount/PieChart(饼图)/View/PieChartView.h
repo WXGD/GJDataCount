@@ -10,7 +10,13 @@
 
 @interface PieChartView : UIView
 
+/** 饼图半径 */
+@property (assign, nonatomic) CGFloat radiusDou;
+
+/** 分割数据 */
 @property (strong, nonatomic) NSArray <NSNumber *>*datas;
+
 - (void)stroke;
+
 
 @end
