@@ -13,6 +13,7 @@
 #import "PhotoBrowserViewController.h"
 #import "PGTimeSeleViewController.h"
 #import "PlnKeyViewController.h"
+#import "PGStagingViewController.h"
 
 @interface TableViewController ()
 
@@ -40,7 +41,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 6;
+    return 7;
 }
 
 
@@ -69,6 +70,10 @@
         }
         case 5: {
             cell.textLabel.text = @"车牌键盘";
+            break;
+        }
+        case 6: {
+            cell.textLabel.text = @"分期";
             break;
         }
         default:
@@ -108,6 +113,11 @@
         case 5: {
             PlnKeyViewController *plnKeyVC = [[PlnKeyViewController alloc] init];
             [self.navigationController pushViewController:plnKeyVC animated:YES];
+            break;
+        }
+        case 6: {
+            PGStagingViewController *stagingVC = [[PGStagingViewController alloc] init];
+            [self.navigationController pushViewController:stagingVC animated:YES];
             break;
         }
             default:
