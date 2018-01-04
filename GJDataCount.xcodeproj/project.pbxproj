@@ -17,6 +17,7 @@
 		185AE6CD1FECFF2200CD11C0 /* PlateNumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185AE6CC1FECFF2200CD11C0 /* PlateNumView.xib */; };
 		185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */; };
 		185F40711FDE1C1300BE0D82 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */; };
+		1891F2471FFB6ADE00CC1CB6 /* DialingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891F2461FFB6ADE00CC1CB6 /* DialingViewController.m */; };
 		1897F9CB1FF32F08002BBBDC /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F9C91FF32F08002BBBDC /* CustomCell.m */; };
 		1897F9CE1FF3482C002BBBDC /* PGTermView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F9CD1FF3482C002BBBDC /* PGTermView.m */; };
 		18AF8F1E1FEBAB1300AC3ECE /* PlnKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8F1D1FEBAB1300AC3ECE /* PlnKeyViewController.m */; };
@@ -82,6 +83,8 @@
 		185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGActivityView.m; sourceTree = "<group>"; };
 		185F406F1FDE1C1300BE0D82 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
 		185F40701FDE1C1300BE0D82 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
+		1891F2451FFB6ADE00CC1CB6 /* DialingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialingViewController.h; sourceTree = "<group>"; };
+		1891F2461FFB6ADE00CC1CB6 /* DialingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialingViewController.m; sourceTree = "<group>"; };
 		1897F9C91FF32F08002BBBDC /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		1897F9CA1FF32F08002BBBDC /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		1897F9CC1FF3482C002BBBDC /* PGTermView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTermView.h; sourceTree = "<group>"; };
@@ -255,6 +258,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1891F2421FFB6AC500CC1CB6 /* Dialing(拨打电话) */ = {
+			isa = PBXGroup;
+			children = (
+				1891F2431FFB6AC500CC1CB6 /* Controller */,
+				1891F2441FFB6AC500CC1CB6 /* View */,
+			);
+			path = "Dialing(拨打电话)";
+			sourceTree = "<group>";
+		};
+		1891F2431FFB6AC500CC1CB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1891F2451FFB6ADE00CC1CB6 /* DialingViewController.h */,
+				1891F2461FFB6ADE00CC1CB6 /* DialingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1891F2441FFB6AC500CC1CB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18AF8F131FEBAAE200AC3ECE /* PlnKey(车牌键盘) */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +347,7 @@
 				18B06EB01FC033580065F8A1 /* PrefixHeader.pch */,
 				1897F9CA1FF32F08002BBBDC /* CustomCell.h */,
 				1897F9C91FF32F08002BBBDC /* CustomCell.m */,
+				1891F2421FFB6AC500CC1CB6 /* Dialing(拨打电话) */,
 				18ED1E051FF230380008803B /* Staging(分期) */,
 				18AF8F131FEBAAE200AC3ECE /* PlnKey(车牌键盘) */,
 				181FF8551FE522E7006A28B2 /* ZXPUnicode */,
@@ -697,6 +726,7 @@
 				18ED1E0A1FF230610008803B /* PGStagingViewController.m in Sources */,
 				18B06E9D1FBFDFE10065F8A1 /* UIView+Extension.m in Sources */,
 				18ED1E0D1FF2306D0008803B /* PGStagingView.m in Sources */,
+				1891F2471FFB6ADE00CC1CB6 /* DialingViewController.m in Sources */,
 				181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */,
 				18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */,
 				18ED1E041FF1FE960008803B /* PieChartView.m in Sources */,
@@ -868,6 +898,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YUTCZ5YC9;
 				GCC_PREFIX_HEADER = /Users/apple/Desktop/GJDataCount/GJDataCount/PrefixHeader.pch;
 				INFOPLIST_FILE = GJDataCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -884,6 +915,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YUTCZ5YC9;
 				GCC_PREFIX_HEADER = /Users/apple/Desktop/GJDataCount/GJDataCount/PrefixHeader.pch;
 				INFOPLIST_FILE = GJDataCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

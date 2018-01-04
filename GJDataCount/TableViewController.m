@@ -14,6 +14,7 @@
 #import "PGTimeSeleViewController.h"
 #import "PlnKeyViewController.h"
 #import "PGStagingViewController.h"
+#import "DialingViewController.h"
 
 @interface TableViewController ()
 
@@ -41,7 +42,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 7;
+    return 9;
 }
 
 
@@ -74,6 +75,10 @@
         }
         case 6: {
             cell.textLabel.text = @"分期";
+            break;
+        }
+        case 7: {
+            cell.textLabel.text = @"拨打电话";
             break;
         }
         default:
@@ -117,6 +122,11 @@
         }
         case 6: {
             PGStagingViewController *stagingVC = [[PGStagingViewController alloc] init];
+            [self.navigationController pushViewController:stagingVC animated:YES];
+            break;
+        }
+        case 7: {
+            DialingViewController *stagingVC = [[DialingViewController alloc] init];
             [self.navigationController pushViewController:stagingVC animated:YES];
             break;
         }
