@@ -16,6 +16,7 @@
 #import "PGStagingViewController.h"
 #import "DialingViewController.h"
 #import "PGAddBookViewController.h"
+#import "PGBrowsingViewController.h"
 
 @interface TableViewController ()
 
@@ -43,7 +44,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 9;
+    return 10;
 }
 
 
@@ -84,6 +85,10 @@
         }
         case 8: {
             cell.textLabel.text = @"通讯录";
+            break;
+        }
+        case 9: {
+            cell.textLabel.text = @"图片浏览";
             break;
         }
         default:
@@ -137,6 +142,11 @@
         }
         case 8: {
             PGAddBookViewController *stagingVC = [[PGAddBookViewController alloc] init];
+            [self.navigationController pushViewController:stagingVC animated:YES];
+            break;
+        }
+        case 9: {
+            PGBrowsingViewController *stagingVC = [[PGBrowsingViewController alloc] init];
             [self.navigationController pushViewController:stagingVC animated:YES];
             break;
         }
