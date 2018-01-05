@@ -13,6 +13,11 @@
 		181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */; };
 		181FF85D1FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */; };
 		181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */; };
+		185287B21FFDDB74009B3B3A /* PGAddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185287B11FFDDB74009B3B3A /* PGAddBookViewController.m */; };
+		185287B51FFDDB82009B3B3A /* PGAddBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185287B41FFDDB82009B3B3A /* PGAddBookView.m */; };
+		185287B91FFE1A44009B3B3A /* PGDivisionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185287B81FFE1A44009B3B3A /* PGDivisionModel.m */; };
+		185287BC1FFE1A5C009B3B3A /* PGStaffModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185287BB1FFE1A5C009B3B3A /* PGStaffModel.m */; };
+		185287CF1FFE4B31009B3B3A /* business.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 185287CE1FFE4B31009B3B3A /* business.sqlite */; };
 		185AE6CB1FECFF1400CD11C0 /* PlateNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AE6CA1FECFF1400CD11C0 /* PlateNumView.m */; };
 		185AE6CD1FECFF2200CD11C0 /* PlateNumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185AE6CC1FECFF2200CD11C0 /* PlateNumView.xib */; };
 		185DB1881FD0E5B900C0FAA5 /* PGActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DB1871FD0E5B900C0FAA5 /* PGActivityView.m */; };
@@ -76,6 +81,15 @@
 		181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
 		181FF85A1FE522E7006A28B2 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
 		181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
+		185287B01FFDDB74009B3B3A /* PGAddBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAddBookViewController.h; sourceTree = "<group>"; };
+		185287B11FFDDB74009B3B3A /* PGAddBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAddBookViewController.m; sourceTree = "<group>"; };
+		185287B31FFDDB82009B3B3A /* PGAddBookView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAddBookView.h; sourceTree = "<group>"; };
+		185287B41FFDDB82009B3B3A /* PGAddBookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAddBookView.m; sourceTree = "<group>"; };
+		185287B71FFE1A44009B3B3A /* PGDivisionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGDivisionModel.h; sourceTree = "<group>"; };
+		185287B81FFE1A44009B3B3A /* PGDivisionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGDivisionModel.m; sourceTree = "<group>"; };
+		185287BA1FFE1A5C009B3B3A /* PGStaffModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGStaffModel.h; sourceTree = "<group>"; };
+		185287BB1FFE1A5C009B3B3A /* PGStaffModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGStaffModel.m; sourceTree = "<group>"; };
+		185287CE1FFE4B31009B3B3A /* business.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = business.sqlite; sourceTree = "<group>"; };
 		185AE6C91FECFF1400CD11C0 /* PlateNumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlateNumView.h; sourceTree = "<group>"; };
 		185AE6CA1FECFF1400CD11C0 /* PlateNumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateNumView.m; sourceTree = "<group>"; };
 		185AE6CC1FECFF2200CD11C0 /* PlateNumView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlateNumView.xib; sourceTree = "<group>"; };
@@ -233,6 +247,46 @@
 			path = ZXPUnicode;
 			sourceTree = "<group>";
 		};
+		185287AD1FFDDB63009B3B3A /* AddBook(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+				185287AE1FFDDB63009B3B3A /* Controller */,
+				185287B61FFE1A24009B3B3A /* Model */,
+				185287AF1FFDDB63009B3B3A /* View */,
+			);
+			path = "AddBook(通讯录)";
+			sourceTree = "<group>";
+		};
+		185287AE1FFDDB63009B3B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185287B01FFDDB74009B3B3A /* PGAddBookViewController.h */,
+				185287B11FFDDB74009B3B3A /* PGAddBookViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185287AF1FFDDB63009B3B3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185287B31FFDDB82009B3B3A /* PGAddBookView.h */,
+				185287B41FFDDB82009B3B3A /* PGAddBookView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185287B61FFE1A24009B3B3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185287CE1FFE4B31009B3B3A /* business.sqlite */,
+				185287B71FFE1A44009B3B3A /* PGDivisionModel.h */,
+				185287B81FFE1A44009B3B3A /* PGDivisionModel.m */,
+				185287BA1FFE1A5C009B3B3A /* PGStaffModel.h */,
+				185287BB1FFE1A5C009B3B3A /* PGStaffModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		185F406C1FDE1B8500BE0D82 /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +401,7 @@
 				18B06EB01FC033580065F8A1 /* PrefixHeader.pch */,
 				1897F9CA1FF32F08002BBBDC /* CustomCell.h */,
 				1897F9C91FF32F08002BBBDC /* CustomCell.m */,
+				185287AD1FFDDB63009B3B3A /* AddBook(通讯录) */,
 				1891F2421FFB6AC500CC1CB6 /* Dialing(拨打电话) */,
 				18ED1E051FF230380008803B /* Staging(分期) */,
 				18AF8F131FEBAAE200AC3ECE /* PlnKey(车牌键盘) */,
@@ -613,6 +668,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B06E631FBFCB170065F8A1 /* LaunchScreen.storyboard in Resources */,
+				185287CF1FFE4B31009B3B3A /* business.sqlite in Resources */,
 				185AE6CD1FECFF2200CD11C0 /* PlateNumView.xib in Resources */,
 				18B06E601FBFCB170065F8A1 /* Assets.xcassets in Resources */,
 				18B06E5E1FBFCB170065F8A1 /* Main.storyboard in Resources */,
@@ -645,6 +701,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GJDataCount/Pods-GJDataCount-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
@@ -654,6 +711,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
@@ -706,6 +764,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B06EB31FC033D40065F8A1 /* PGQuickTermView.m in Sources */,
+				185287BC1FFE1A5C009B3B3A /* PGStaffModel.m in Sources */,
 				1897F9CE1FF3482C002BBBDC /* PGTermView.m in Sources */,
 				18B06E8D1FBFCB960065F8A1 /* BrokenLineViewController.m in Sources */,
 				18B06E991FBFD7550065F8A1 /* BrokenLineView.m in Sources */,
@@ -730,7 +789,10 @@
 				181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */,
 				18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */,
 				18ED1E041FF1FE960008803B /* PieChartView.m in Sources */,
+				185287B91FFE1A44009B3B3A /* PGDivisionModel.m in Sources */,
+				185287B51FFDDB82009B3B3A /* PGAddBookView.m in Sources */,
 				181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */,
+				185287B21FFDDB74009B3B3A /* PGAddBookViewController.m in Sources */,
 				18B06EAF1FC032E70065F8A1 /* PGQuickScreenView.m in Sources */,
 				18AF8F1E1FEBAB1300AC3ECE /* PlnKeyViewController.m in Sources */,
 				1897F9CB1FF32F08002BBBDC /* CustomCell.m in Sources */,

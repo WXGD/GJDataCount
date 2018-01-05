@@ -15,6 +15,7 @@
 #import "PlnKeyViewController.h"
 #import "PGStagingViewController.h"
 #import "DialingViewController.h"
+#import "PGAddBookViewController.h"
 
 @interface TableViewController ()
 
@@ -81,6 +82,10 @@
             cell.textLabel.text = @"拨打电话";
             break;
         }
+        case 8: {
+            cell.textLabel.text = @"通讯录";
+            break;
+        }
         default:
             break;
     }
@@ -130,7 +135,12 @@
             [self.navigationController pushViewController:stagingVC animated:YES];
             break;
         }
-            default:
+        case 8: {
+            PGAddBookViewController *stagingVC = [[PGAddBookViewController alloc] init];
+            [self.navigationController pushViewController:stagingVC animated:YES];
+            break;
+        }
+        default:
             break;
     }
 }

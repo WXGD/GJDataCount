@@ -5,5 +5,6 @@ target 'GJDataCount' do
     pod 'Masonry'
     pod 'ReactiveObjC'
     pod 'MWPhotoBrowser'
+    pod 'FMDB'
     pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 end
