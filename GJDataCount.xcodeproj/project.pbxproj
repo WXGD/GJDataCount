@@ -10,6 +10,8 @@
 		181FF85C1FE522E7006A28B2 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8561FE522E7006A28B2 /* NSArray+ ZXPUnicode.m */; };
 		181FF85D1FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */; };
 		181FF85E1FE522E7006A28B2 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */; };
+		18301E5620061DDD00D06E0E /* TableCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18301E5520061DDD00D06E0E /* TableCellViewController.m */; };
+		18301E5920061E3600D06E0E /* PGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18301E5820061E3600D06E0E /* PGTableViewCell.m */; };
 		1897F9CB1FF32F08002BBBDC /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F9C91FF32F08002BBBDC /* CustomCell.m */; };
 		18B06E581FBFCB170065F8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B06E571FBFCB170065F8A1 /* AppDelegate.m */; };
 		18B06E5E1FBFCB170065F8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B06E5C1FBFCB170065F8A1 /* Main.storyboard */; };
@@ -90,6 +92,10 @@
 		181FF8591FE522E7006A28B2 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
 		181FF85A1FE522E7006A28B2 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
 		181FF85B1FE522E7006A28B2 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
+		18301E5420061DDD00D06E0E /* TableCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellViewController.h; sourceTree = "<group>"; };
+		18301E5520061DDD00D06E0E /* TableCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellViewController.m; sourceTree = "<group>"; };
+		18301E5720061E3600D06E0E /* PGTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTableViewCell.h; sourceTree = "<group>"; };
+		18301E5820061E3600D06E0E /* PGTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGTableViewCell.m; sourceTree = "<group>"; };
 		1897F9C91FF32F08002BBBDC /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		1897F9CA1FF32F08002BBBDC /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		18B06E531FBFCB170065F8A1 /* GJDataCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJDataCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +243,25 @@
 			path = ZXPUnicode;
 			sourceTree = "<group>";
 		};
+		18301E5220061DCC00D06E0E /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				18301E5320061DCC00D06E0E /* Controller */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		18301E5320061DCC00D06E0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18301E5420061DDD00D06E0E /* TableCellViewController.h */,
+				18301E5520061DDD00D06E0E /* TableCellViewController.m */,
+				18301E5720061E3600D06E0E /* PGTableViewCell.h */,
+				18301E5820061E3600D06E0E /* PGTableViewCell.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		18B06E4A1FBFCB170065F8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +338,7 @@
 		18DC35B61FFF27DE00F7CE21 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				18301E5220061DCC00D06E0E /* TableCell */,
 				18DC36211FFF282900F7CE21 /* Browsing(图片浏览) */,
 				18DC35B71FFF27DE00F7CE21 /* AddBook(通讯录) */,
 				18DC35C41FFF27DE00F7CE21 /* BrokenLine(折线图) */,
@@ -904,9 +930,11 @@
 				18DC361D1FFF27DE00F7CE21 /* PGStagingView.m in Sources */,
 				18DC364D1FFF286400F7CE21 /* MSSBrowseZoomScrollView.m in Sources */,
 				18DC36191FFF27DE00F7CE21 /* PGActivityView.m in Sources */,
+				18301E5620061DDD00D06E0E /* TableCellViewController.m in Sources */,
 				18DC360A1FFF27DE00F7CE21 /* PGAddBookView.m in Sources */,
 				18DC364E1FFF286400F7CE21 /* UIImage+MSSScale.m in Sources */,
 				18DC364F1FFF286400F7CE21 /* UIView+MSSLayout.m in Sources */,
+				18301E5920061E3600D06E0E /* PGTableViewCell.m in Sources */,
 				18DC361E1FFF27DE00F7CE21 /* PGTermView.m in Sources */,
 				18DC36461FFF286400F7CE21 /* MSSBrowseBaseViewController.m in Sources */,
 				18DC36451FFF286400F7CE21 /* MSSBrowseActionSheetCell.m in Sources */,
